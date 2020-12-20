@@ -1,4 +1,5 @@
 # dotfiles
-my configs for sway
+my configs for sway;
+
 for installing start the install.sh
 
