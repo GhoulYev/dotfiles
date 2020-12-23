@@ -18,9 +18,10 @@ input type:pointer {
     accel_profile flat
 }
 
-
-bindsym --to-code $mod+P exec grim - | wl-copy --type image/png
-bindsym --to-code $mod+Shift+P exec grim -g "$(slurp)" - | wl-copy --type image/png
+    # Legacy
+    # Make a screenshot & copy to clipboard (of a selectable area via Shift+Print)
+    bindsym --to-code $mod+p exec grim - | wl-copy --type image/png && notify-send "Screenshot taken" || notify-send "Failed to take screenshot"
+    bindsym --to-code $mod+Shift+p exec grim -g "$(slurp)" - | wl-copy --type image/png && notify-send "Screenshot taken" || notify-send "Failed to take screenshot"
 
 exec_always {
     #gsettings set org.gnome.desktop.interface gtk-theme ''
