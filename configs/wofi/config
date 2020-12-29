@@ -1,11 +1,11 @@
 show=drun
-location=top_left
+location=center
 width=500
 height=300
 allow_images=true
 allow_markup=true
 term=alacritty
-x=700
-y=400
+x=100
+y=140
 image_size=40
 

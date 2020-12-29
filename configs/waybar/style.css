@@ -40,10 +40,10 @@
 /* COLORS */
 
 /* "Orange" Theme */
-@define-color light #ccccff;
+@define-color light #ffc299;
 @define-color dark #282828;
-@define-color warning #e60000;
-@define-color critical #cc0000;
+@define-color warning #662900;
+@define-color critical #4d1f00;
 @define-color mode #ff471a;
 @define-color workspaces #ffa366;
 @define-color workspacesfocused #ff944d;
@@ -78,11 +78,11 @@
 /* Reset all styles */
 * {
     border: none;
-    border-radius: 0px;
-    min-height: 0px;
-    margin: 0px;
-    padding: 0px;
-}
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    }
 
 /* The whole bar */
 #waybar {
