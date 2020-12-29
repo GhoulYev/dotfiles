@@ -87,7 +87,7 @@ smart_borders on
 
 
 
-set $locker 'swaylock —font FiraCode -e -f -i ~/wallpaper/wallpaper.jpg'
+set $locker 'swaylock —font FiraCode -e -f -i ~/wallpaper/wallpaper1.png'
 bindsym --to-code Pause exec $locker
 
 
@@ -109,7 +109,7 @@ set $menu wofi
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg ~/wallpaper/wallpaper.jpg fill
+output * bg ~/wallpaper/wallpaper2.jpg fill
 #
 # Example configuration:
 #
