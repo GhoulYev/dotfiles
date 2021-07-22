@@ -21,7 +21,7 @@ input type:pointer {
     # Legacy
     # Make a screenshot & copy to clipboard (of a selectable area via Shift+Print)
     bindsym --to-code $mod+p exec grim - | wl-copy --type image/png && notify-send "Screenshot taken" || notify-send "Failed to take screenshot"
-    bindsym --to-code $mod+Shift+p exec grim -g "$(slurp)" - | wl-copy --type image/png && notify-send "Screenshot taken" || notify-send "Failed to take screenshot"
+    bindsym --to-code $mod+Shift+s exec grim -g "$(slurp)" - | wl-copy --type image/png && notify-send "Screenshot taken" || notify-send "Failed to take screenshot"
 
 exec_always {
     #gsettings set org.gnome.desktop.interface gtk-theme ''
@@ -42,6 +42,9 @@ bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym XF86MonBrightnessDown exec light -U 5
 bindsym XF86MonBrightnessUp exec light -A 5
 
+set $white #b3b3b3
+set $black #666
+
 # set primary gruvbox colorscheme colors
 #set $bg0 #282828
 #set $bg0hard #1d2021
@@ -50,18 +53,24 @@ bindsym XF86MonBrightnessUp exec light -A 5
 #set $reddark  #cc241d
 #set $bluedark  #458588
 #set $purplelight #d3869b
-set $white #ffffff
-set $black #000000
 
 # set monokai theme
-set $bg0 #272822
-set $bg0hard #9dd134
+#set $bg0 #272822
+#set $bg0hard #9dd134
+#set $fg1 #F8F8F2
+#set $fg4 #F8F8F2
+#set $reddark #F92672
+#set $bluedark #66D9EF
+#set $purplelight #AE81F
+
+# smoke theme
+set $bg0 #a6a6a6
+set $bg0hard #9e9e9e
 set $fg1 #F8F8F2
 set $fg4 #F8F8F2
-set $reddark #F92672
-set $bluedark #66D9EF
-set $purplelight #AE81F
-
+set $reddark #b0b0b0
+set $bluedark #7f7f7f
+set $purplelight #a6a6a6
 
 # Обводка приложений ебаных
 
@@ -109,7 +118,7 @@ set $menu wofi
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output * bg ~/wallpaper/wallpaper1.png fill
+output * bg ~/wallpaper/wallpaper3.jpg fill
 #
 # Example configuration:
 #

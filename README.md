@@ -1,8 +1,7 @@
 # dotfiles
 my configs for sway
 ### Screenshot
-![alt-текст](screenshot.png "screenshot")
-![alt-текст](screenshot1.png "screenshot")
+![screenshot](screenshot.png)
 ### Installing
 for installing start the **install.sh**
 ### Dependencies

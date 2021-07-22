@@ -39,7 +39,7 @@
 
 /* COLORS */
 
-/* "Orange" Theme */
+/* "Orange" Theme
 @define-color light #ffc299;
 @define-color dark #282828;
 @define-color warning #662900;
@@ -55,10 +55,10 @@
 @define-color layout #f06b24;
 @define-color battery #ed6321;
 @define-color date #eb5c1f;
-@define-color time #e8541c;
+@define-color time #e8541c;*/
 
-/* "Winter" theme */
-/*@define-color light #ccccff;
+/* "Winter" theme
+@define-color light #ccccff;
 @define-color dark #282828;
 @define-color warning #000099;
 @define-color critical #000066;
@@ -74,6 +74,24 @@
 @define-color battery #1ac6ff;
 @define-color date #00bfff;
 @define-color time #00ace6;*/
+
+/*"Smoke" Theme*/
+@define-color light #b8b8b8;
+@define-color dark #595959;
+@define-color warning #0a0a0a;
+@define-color critical #fcfcfc;
+@define-color mode #9e9e9e;
+@define-color workspaces #ccc;
+@define-color workspacesfocused #b5b5b5;
+@define-color sound #ccc;
+@define-color network #c9c9c9;
+@define-color memory #c4c4c4;
+@define-color cpu #c2c2c2;
+@define-color temp #bfbfbf;
+@define-color layout #b8b8b8;
+@define-color battery #b5b5b5;
+@define-color date #b3b3b3;
+@define-color time #adadad;
 
 /* Reset all styles */
 * {
@@ -221,12 +239,12 @@
 
 #clock.date {
     background: @date;
-    color: @dark;
+    color: @light;
 }
 
 #clock.time {
     background: @time;
-    color: @dark;
+    color: @light;
     border-radius: 0 5 5 0px;
 }
 
@@ -236,5 +254,7 @@
 }
 
 #pulseaudio.muted {
-    /* No styles */
+    /* No styles 
+    BTW I USE ALSA
+    */
 }
