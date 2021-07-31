@@ -1,4 +1,4 @@
 #installing configuration 
 cp configs/* ~/.config/ -r
-cp wallpaper/ ~/
+cp wallpaper/ ~/ -r
 echo "succesful!"
