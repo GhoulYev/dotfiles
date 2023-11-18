@@ -239,12 +239,12 @@
 
 #clock.date {
     background: @date;
-    color: @light;
+    color: @dark;
 }
 
 #clock.time {
     background: @time;
-    color: @light;
+    color: @dark;
     border-radius: 0 5 5 0px;
 }
 

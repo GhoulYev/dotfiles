@@ -12,7 +12,8 @@ env:
   # available, otherwise `xterm-256color` is used.
   TERM: alacritty
 
-#window:
+window:
+  opacity: 0.7
   # Window dimensions (changes require restart)
   #
   # Specified in number of columns/lines, not pixels.
@@ -310,7 +311,7 @@ font:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.7
+#background_opacity: 0.7
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -695,48 +696,49 @@ background_opacity: 0.7
   #print_events: false
 
 #Orange colors
-colors:
-  primary:
-    background: '#1a0a00'
-    foreground: '#d8dee9'
-    dim_foreground: '#a5abb6'
-  cursor:
-    text: '#2e3440'
-    cursor: '#999999'
-  vi_mode_cursor:
-    text: '#2e3440'
-    cursor: '#d8dee9'
-  selection:
-    text: CellForeground
-    background: '#4c566a'
-  search:
-    matches:
-      foreground: CellBackground
-      background: '#88c0d0'
-    bar:
-      background: '#434c5e'
-      foreground: '#d8dee9'
-  normal:
-    black: '#3b4252'
-    red: '#bf616a'
-    green: '#a3be8c'
-    yellow: '#ebcb8b'
-    blue: '#81a1c1'
-    magenta: '#b48ead'
-    cyan: '#88c0d0'
-    white: '#e5e9f0'
-  bright:
-    black: '#4c566a'
-    red: '#bf616a'
-    green: '#a3be8c'
-    yellow: '#ebcb8b'
-    blue: '#81a1c1'
-    magenta: '#b48ead'
-    cyan: '#8fbcbb'
-    white: '#eceff4'
+#colors:
+#  primary:
+#    background: '#1a0a00'
+#    foreground: '#d8dee9'
+#    dim_foreground: '#a5abb6'
+#  cursor:
+#    text: '#2e3440'
+#    cursor: '#999999'
+#  vi_mode_cursor:
+#    text: '#2e3440'
+#    cursor: '#d8dee9'
+#  selection:
+#    text: CellForeground
+#    background: '#4c566a'
+#  search:
+#    matches:
+#      foreground: CellBackground
+#      background: '#88c0d0'
+#    bar:
+#      background: '#434c5e'
+#      foreground: '#d8dee9'
+#  normal:
+#    black: '#3b4252'
+#    red: '#bf616a'
+#    green: '#a3be8c'
+#    yellow: '#ebcb8b'
+#    blue: '#81a1c1'
+#    magenta: '#b48ead'
+#    cyan: '#88c0d0'
+#    white: '#e5e9f0'
+#  bright:
+#    black: '#4c566a'
+#    red: '#bf616a'
+#    green: '#a3be8c'
+#    yellow: '#ebcb8b'
+#    blue: '#81a1c1'
+#    magenta: '#b48ead'
+#   cyan: '#8fbcbb'
+#   white: '#eceff4'
 
 #Smoke colors
 colors:
+  #footer_bar: #434c5e
   primary:
     background: '#212121'
     foreground: '#d8dee9'
@@ -754,9 +756,6 @@ colors:
     matches:
       foreground: CellBackground
       background: '#88c0d0'
-    bar:
-      background: '#434c5e'
-      foreground: '#d8dee9'
   normal:
     black: '#3b4252'
     red: '#bf616a'

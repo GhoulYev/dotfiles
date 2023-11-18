@@ -5,4 +5,4 @@ my configs for sway
 ### Installing
 for installing start the **install.sh**
 ### Dependencies
-`sway grim slurp wl-clipboard wofi light alsa-utils mako playerctl alacritty waybar font-dejavu font-awesome5 swaylock swayidle mesa-dri`
+`sway swaybg grim slurp wl-clipboard wofi light alsa-utils mako playerctl alacritty waybar font-dejavu font-awesome5 swaylock swayidle mesa-dri`
