@@ -1,4 +1,4 @@
-![image](https://github.com/GhoulYev/dotfiles/assets/68611633/bfa930b5-81fb-4933-b0e0-a36ea739820c)# dotfiles
+# dotfiles
 my configs for sway
 ### Screenshot
 ![screenshot](screenshot.png)
